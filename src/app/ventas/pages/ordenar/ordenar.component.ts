@@ -6,4 +6,12 @@ import { Component } from '@angular/core';
 })
 export class OrdenarComponent {
 
+  enMayuscula:boolean= false;
+
+
+  cambiarEstadoMayuscula(){
+
+      this.enMayuscula=true;
+
+  }
 }
